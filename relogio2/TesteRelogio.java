@@ -10,7 +10,6 @@ public class TesteRelogio {
 		relogio1.setMinuto(27);
 		relogio1.setSegundo(6);
 
-		// continua no próximo slide
 		System.out.printf("%nRelógio 1 alterado para: %s%n", relogio1);
 		System.out.printf("Relógio 2 alterado para: %s%n", relogio2);
 
