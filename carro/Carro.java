@@ -9,10 +9,10 @@ public class Carro {
     Scanner s = new Scanner(System.in);
 
     public Carro(String cor, String marca, int ano){
+        this.velocidade = 0;
         setCor(cor);
         setMarca(marca);
         setAno(ano);
-        this.velocidade = 0;
     }
 
     public void acelerar(double aceleracao, int tempo){
